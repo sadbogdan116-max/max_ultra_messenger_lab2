@@ -3,6 +3,7 @@ from functools import lru_cache
 from typing import List, Set
 from config import FALLBACK_RUSSIAN_STOPWORDS
 """Исмаилов Богдан мт 202"""
+"""Кравченко Андрей мт-202"""
 
 try: 
     import pymorphy3
