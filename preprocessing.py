@@ -4,7 +4,7 @@ from typing import List, Set
 from config import FALLBACK_RUSSIAN_STOPWORDS
 """Исмаилов Богдан мт 202"""
 
-try:
+try: 
     import pymorphy3
     _MORPH = pymorphy3.MorphAnalyzer()
 except ImportError:
